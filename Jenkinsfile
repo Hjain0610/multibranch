@@ -6,6 +6,6 @@ node('master')
   } 
   stage('ContinuousBuild') 
   {
-    sh '/opt/maven/bin mvn package'
+    sh '/opt/maven/binmvn package'
   } 
 }
